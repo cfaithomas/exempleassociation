@@ -19,4 +19,13 @@ int Arme::getPrix() const {
 Arme::Arme() {
 
 }
-//argument dommage va valoriser l'attribbut dommage idem pour prix
+
+void Arme::setDommage(int dommage) {
+    Arme::dommage = dommage;
+}
+
+void Arme::setPrix(int prix) {
+    Arme::prix = prix;
+}
+
+

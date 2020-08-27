@@ -15,7 +15,7 @@ class Joueur {
 public:
     Joueur(int dommage,int prix);
 
-    const Arme &getEpee() const;
+    Arme &getEpee() ;
 };
 
 

@@ -8,6 +8,6 @@ Joueur::Joueur(int dommage, int prix) {
     epee=Arme(dommage,prix);
 }
 
-const Arme &Joueur::getEpee() const {
+ Arme &Joueur::getEpee()  {
     return epee;
 }

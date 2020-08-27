@@ -17,6 +17,10 @@ public:
 
     int getPrix() const;
 
+    void setDommage(int dommage);
+
+    void setPrix(int prix);
+
 };
 
 
