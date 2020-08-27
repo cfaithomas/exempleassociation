@@ -10,7 +10,7 @@ class Arme {
     int dommage;
     int prix;
 public:
-    Arme();
+
     Arme(int dommage, int prix);
 
     int getDommage() const;

@@ -15,8 +15,11 @@ class Joueur {
 
 public:
     Joueur(int dommage,int prix);
+    Joueur(int pointsdevie,int dommage,int prix);
 
     Arme &getEpee() ;
+
+    int getPointsdevie() const;
 };
 
 

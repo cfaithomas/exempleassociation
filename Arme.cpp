@@ -16,10 +16,6 @@ int Arme::getPrix() const {
     return prix;
 }
 
-Arme::Arme() {
-
-}
-
 void Arme::setDommage(int dommage) {
     Arme::dommage = dommage;
 }
