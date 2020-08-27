@@ -19,3 +19,11 @@ Joueur::Joueur(int pointsdevie, int dommage, int prix):epee(dommage,prix),points
 int Joueur::getPointsdevie() const {
     return pointsdevie;
 }
+
+void Joueur::seBattre(Joueur &adversaire) {
+adversaire.pointsdevie-=epee.getDommage();
+}
+
+void Joueur::changerArme(Arme &nouvellearme) {
+    epee=nouvellearme; //affectation entre les objets
+}

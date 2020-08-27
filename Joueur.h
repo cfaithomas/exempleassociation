@@ -14,11 +14,16 @@ class Joueur {
     int pointsdevie;
 
 public:
+    /**************constructors********************/
     Joueur(int dommage,int prix);
     Joueur(int pointsdevie,int dommage,int prix);
 
-    Arme &getEpee() ;
+    /*************methods**************************/
+    void seBattre(Joueur &adversaire);
+    void changerArme(Arme &nouvellearme);
 
+    /*************getter***************************/
+    Arme &getEpee() ;
     int getPointsdevie() const;
 };
 
