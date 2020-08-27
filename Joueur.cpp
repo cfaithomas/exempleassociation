@@ -6,6 +6,7 @@
 
 Joueur::Joueur(int dommage, int prix) {
     epee=Arme(dommage,prix);
+    pointsdevie=500;
 }
 
  Arme &Joueur::getEpee()  {

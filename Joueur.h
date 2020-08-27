@@ -11,6 +11,7 @@
 class Joueur {
 
     Arme epee;
+    int pointsdevie;
 
 public:
     Joueur(int dommage,int prix);
